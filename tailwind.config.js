@@ -32,6 +32,10 @@ export default {
       backgroundColor: colors,
       borderColor: colors,
       colors,
+      screens: {
+        xmd: '480px',
+        tb: '992px',
+      },
       minHeight: {
         screen: '100vh',
       },

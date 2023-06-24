@@ -8,9 +8,9 @@ import { Item } from '@/components/Item'
 
 export function Summary() {
   return (
-    <section className="pb-[2.875rem] pt-[2.375rem] px-10 w-[23rem]">
-      <h1 className="font-bold text-2xl">Summary</h1>
-      <ul className="flex flex-col gap-4 mt-7 text-lg">
+    <section className="pb-[1.875rem] pt-6 px-[1.875rem] w-full tb:pb-[2.875rem] tb:pt-[2.375rem] tb:px-10 xmd:w-[23rem]">
+      <h1 className="font-bold text-lg tb:text-2xl">Summary</h1>
+      <ul className="flex flex-col gap-4 mt-7 text-base tb:text-lg">
         <Item color="red" icon="flash" text="Reaction" value={80} />
         <Item color="yellow" icon="brain" text="Memory" value={92} />
         <Item color="green" icon="chat-remove" text="Verbal" value={61} />
