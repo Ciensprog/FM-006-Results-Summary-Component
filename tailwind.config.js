@@ -1,5 +1,21 @@
 const colors = {
-  //
+  blue: {
+    'very-light': '#ECF2FF',
+    light: '#CAC9FF',
+    normal: '#1125D6',
+  },
+  green: {
+    normal: '#00BB8F',
+  },
+  navy: {
+    dark: '#303B59',
+  },
+  red: {
+    normal: '#FF5555',
+  },
+  yellow: {
+    normal: '#FFB21E',
+  },
 }
 
 /*
